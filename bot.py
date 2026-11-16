@@ -140,7 +140,7 @@ def handle_message(message):
         )
 
     elif command == "/signal":
-    send_market_signal(chat_id)
+        send_market_signal(chat_id)
 
     else:
         send_message(
